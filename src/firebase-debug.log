@@ -1,0 +1,51 @@
+[debug] [2019-09-05T21:40:12.342Z] ----------------------------------------------------------------------
+[debug] [2019-09-05T21:40:12.348Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Florencia\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2019-09-05T21:40:12.349Z] CLI Version:   7.3.1
+[debug] [2019-09-05T21:40:12.349Z] Platform:      win32
+[debug] [2019-09-05T21:40:12.349Z] Node Version:  v10.15.1
+[debug] [2019-09-05T21:40:12.352Z] Time:          Thu Sep 05 2019 16:40:12 GMT-0500 (Central Daylight Time)
+[debug] [2019-09-05T21:40:12.352Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-09-05T21:40:12.374Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-09-05T21:40:12.378Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Florencia\Documents\Laboratoria\labnotes\src
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2019-09-05T21:40:25.588Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2019-09-05T21:40:26.219Z] <<< HTTP RESPONSE 200
+[info] i  Using project notepad-4865b (Notepad)
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2019-09-05T21:40:55.303Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2019-09-05T21:40:55.718Z] <<< HTTP RESPONSE 200
+[debug] [2019-09-05T21:40:56.158Z] Error: ENOENT: no such file or directory, open 'C:\Users\Florencia\Documents\Laboratoria\labnotes\src\app.js\index.html'
+    at Object.openSync (fs.js:439:3)
+    at Object.writeFileSync (fs.js:1190:35)
+    at Object.createFileSync (C:\Users\Florencia\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:34:6)
+    at Config.writeProjectFile (C:\Users\Florencia\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:178:8)
+    at C:\Users\Florencia\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:197:18
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.
