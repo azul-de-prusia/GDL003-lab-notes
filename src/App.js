@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Login from './login';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         >
           Learn React
         </a>
+        <Login />
       </header>
     </div>
   );
