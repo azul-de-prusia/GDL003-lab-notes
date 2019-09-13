@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import withFirebaseAuth from 'react-with-firebase-auth';
 import * as firebase from 'firebase';
 import 'firebase/auth';
-import firebaseConfig from './firebase';
+import firebaseConfig from '../firebase';
 
 const firebaseApp = firebase.initializeApp (firebaseConfig);
 
@@ -14,12 +14,12 @@ class Login extends Component {
                 {
                     user 
                     ? <p>Hello, {user.displayName}</p>
-                    : <p>Please sign in</p>
+                    : <p>Please sign in to open up your notebook</p>
                 }
                 {
                     user 
                     ? <button onClick ={signOut}>Sign out</button>
-                    : <button onClick = {signInWithGoogle}>Sign in with google</button>
+                    : <button onClick = {signInWithGoogle}>Sign in with gmail</button>
                 }
             </div>
         );
@@ -33,4 +33,4 @@ googleProvider : new firebase.auth.GoogleAuthProvider(),
 export default withFirebaseAuth({
     providers,
     firebaseAppAuth, 
-})(Login);
+})(Login); 

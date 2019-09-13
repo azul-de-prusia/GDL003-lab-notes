@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class Notes extends Component {
   render() {
     return (
-      <h1>Hola mundo</h1>
+      <h1>My first component</h1>
     );
   }
 }
  
-export default Hola;
+export default Notes;

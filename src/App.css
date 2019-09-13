@@ -1,46 +1,25 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  text-align: left;
+}
+header {
+  background-image: url("https://i.ibb.co/4pBcVhG/book-2.jpg");
+  background-size:100% 100%;
+  font-size: 20px;
+  margin-top: 9%;
+  color: #641302;
+  font-family: Impact, Charcoal, sans-serif;
+  text-shadow: -3px 3px 1px rgba(221,108,38,0.89);
+  font-size: 28px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
-.App-logo {
-  
-  height: 40vmin;
-  pointer-events: none;
-  background: transparent;
-}
-
-.App-header {
-  background-image: url("https://comps.canstockphoto.com/old-lined-paper-in-a-notepad-stock-photography_csp4008540.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(14px + 2vmin);
-  color: rgb(83, 76, 76);
-}
-
-.App-link {
-  color: #1c5cd3;
-}
-
-.bttnlogProvider{
-  background-image: url("https://www.1-stopmedia.com/wp-content/uploads/2016/08/097668-black-ink-grunge-stamp-textures-icon-social-media-logos-facebook-logo-square.png");
-  width:16rem;
-  height: 2rem;
-  background-size: 2rem;
-  background-image: transparent;  
-  margin: 1rem;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#title{
+  padding-top: 15%;
+  padding-left: 18%;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
