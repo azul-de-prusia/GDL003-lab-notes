@@ -1,34 +1,30 @@
-/*import React, { Component } from 'react';
- 
-class Hola extends Component {
-  render() {
-    return (
-      <h1>Hola mundo</h1>
-    );
-  }
-}
- 
-export default Notes;*/
+import React, {Component} from 'react';
 
-
-import React from 'react';
-import Note from '../Components/Note'
-// import List from '../components/List';
-
-class Notes extends React.Component {
+class Notes extends Component {
 
   render() {
     return (
-    <div>
+    <div class="notesContainer">
       <div>
-        <p>Title</p>
-        <Note />
+      <textarea class="monday" rows="20" cols="20">Write your monday´s dream here</textarea>
       </div>
       <div>
-        <Note />
+      <textarea class="tuesday" rows="20" cols="20">Write your tuesday´s dream here</textarea>
+      </div>
+      <div >
+      <textarea class="wednesday" rows="20" cols="20">Write your wednesday´s dream here</textarea>
       </div>
       <div>
-        <Note />
+      <textarea class="thursday" rows="20" cols="20">Write your thursday´s dream here</textarea>
+      </div>
+      <div>
+      <textarea class="friday" rows="20" cols="20">Write your friday´s dream here</textarea>
+      </div>
+      <div>
+      <textarea class="saturday" rows="20" cols="20">Write your saturday´s dream here</textarea>
+      </div>
+      <div>
+      <textarea class="sunday" rows="20" cols="20">Write your sunday´s dream here</textarea>
       </div>
     </div>
 

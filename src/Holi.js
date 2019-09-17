@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
  
-class Notes extends Component {
+class Testing extends Component {
   render() {
     return (
       <h1>My first component</h1>
@@ -8,4 +8,4 @@ class Notes extends Component {
   }
 }
  
-export default Notes;
+export default Testing;

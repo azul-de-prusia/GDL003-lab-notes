@@ -1,25 +1,64 @@
+@font-face {
+font-family: berton;
+src: url(../src/berton.ttf);
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: berton;
   text-align: left;
 }
 header {
-  background-image: url("https://i.ibb.co/4pBcVhG/book-2.jpg");
+  background-image: url("https://i.ibb.co/sb70wkT/Vintage-Notebook-Open-Pages-Old-Design-Shop.jpg");
   background-size:100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-size: 20px;
-  margin-top: 9%;
-  color: #641302;
-  font-family: Impact, Charcoal, sans-serif;
-  text-shadow: -3px 3px 1px rgba(221,108,38,0.89);
+  margin-top: 0%;
+  color: #5E7C9A;
+  font-family: berton;
   font-size: 28px;
 }
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: berton;
 }
 
 #title{
   padding-top: 15%;
   padding-left: 18%;
   }
+
+  Notes{
+    background-color: blueviolet;
+  
+  }
+  .monday {
+    background-color: #e7f3fe;
+    border-left: 6px solid rgb(87, 168, 235);
+  }
+  
+  .tuesday {
+    background-color: #f5d7a6;
+    border-left: 6px solid #e08d4a;
+  }
+  
+  .wednesday {
+    background-color: #fcb3c5;
+    border-left: 6px solid#eb426c
+  }
+  .thursday {
+    background-color: #C7ADE0;
+    border-left: 6px solid rgb(143, 80, 202);
+  }
+  .friday {
+    background-color: #9cffbe;
+    border-left: 6px solid #31d66b;
+  }
+  .saturday {
+    background-color: #C9A490;
+    border-left: 6px solid rgb(143, 101, 77);
+  }
+  .sunday {
+    background-color: #EFCB8A;
+    border-left: 6px solid #DE9A1B;
+  }
+  
