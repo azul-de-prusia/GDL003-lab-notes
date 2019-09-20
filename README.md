@@ -11,6 +11,9 @@ In a future iteration I would like to be able to select the notes by color, wher
 
 ## About
 
+This was the low fidelity prototype in which I added the general ideas to a notes app.
+ (https://i.ibb.co/gtfHg07/Whats-App-Image-2019-09-20-at-2-31-37-PM.jpg)
+
 This app is developed using:
 *  Javascript
 *  React
@@ -19,5 +22,4 @@ This app is developed using:
 *  Firebase
 *  Firestore
 
- This was the low fidelity prototype in which I added the general ideas to a notes app.
- (https://i.ibb.co/gtfHg07/Whats-App-Image-2019-09-20-at-2-31-37-PM.jpg)
+ 
