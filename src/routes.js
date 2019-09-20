@@ -1,13 +1,13 @@
 import React from 'react';
 import { Switch, Route} from 'react-router-dom';
 import login from './Components/login';
-import Notes from './Holi';
+import Notes from './Components/notes';
 
 const Routes = ()=>{
     return(
         <Switch>
-            <Route exact path='/'component={login}/>
-            <Route exact path='/'component={Notes}/>
+            <Route exact path='/login'component={login}/>
+            <Route exact path='/notes'component={Notes}/>
         </Switch>
     )
 }

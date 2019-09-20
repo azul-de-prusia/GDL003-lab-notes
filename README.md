@@ -1,68 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Dreamnotes
 
-## Available Scripts
+## Introduction. How I got that idea? 
 
-In the project directory, you can run:
+This is my first attempt to a ReactApp and it´s focused on a diary where to write what you dream.
+Dreams are a way in which your subconscious communicates with you, and that information can be very relevant.
+ For a few years I kept a dream diary, I tried it in several ways and it was best to write it down immediately upon waking because after some details fade, I realized that it was much more practical to write them down a mobile device since you have it easily at hand in your bed and you don't have to look for a pen, open a notebook, you can even write it while still lying down, that's why this app is designed for mobile devices and its development is Mobile first.
+ It is important to avoid distractors in the period of waking from sleep and write it to concentrate on the dream and thus not lose the details, since dreams evoke images, sounds, aromas and sensations. Therefore I did not add images to the design and try to keep it simple but at the same time tidy.
+I didn't love the login at first because of the need not to get distracted by having access to the app although it can be a security measure since it is something private where we do not necessarily want other people to have access.
+In a future iteration I would like to be able to select the notes by color, where there is a different color for each day of the week, since dreams are not remembered every day and there may be specific days when we remember them more frequently and a greater number. Also I would like to implement an automatical save of the date the note is written.
 
-### `npm start`
+## About
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This app is developed using:
+*  Javascript
+*  React
+*  React router
+*  CSS3
+*  Firebase
+*  Firestore
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+ This was the low fidelity prototype in which I added the general ideas to a notes app.
+ (https://i.ibb.co/gtfHg07/Whats-App-Image-2019-09-20-at-2-31-37-PM.jpg)
